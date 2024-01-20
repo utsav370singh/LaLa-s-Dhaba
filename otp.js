@@ -3,12 +3,12 @@ function sentOTP(){
     const otpverify= document.getElementsByClassName('otpverify')[0];
 
     let otp_val= Math.floor(Math.random() * 10000);
-    let emailbody= `<h2> Your OTP is </h2> ${otp_val}`
+    let emailbody= `<h2>  Your OTP For LaLa's Dhaba is</h2> ${otp_val}`
     Email.send({
-        SecureToken : "d245c4d5-5d5f-4e3e-9013-73a81f19fef6 ",
+        SecureToken : "b5fa5ff0-00cc-4b59-95cc-cb04330d0bef  ",
         To : email.value,
         From : "utsavsingh265@gmail.com",
-        Subject : "your otp for lala-cart is",
+        Subject : "OTP",
         Body : emailbody,
     }).then(
        message =>{
