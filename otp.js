@@ -7,8 +7,8 @@ function sentOTP(){
     Email.send({
         SecureToken : "ffde6be9-0fe2-4843-87e6-75f194ce8a0c ",
         To : email.value,
-        From : "suman995030@gmail.com",
-        Subject : "Email OTP using js",
+        From : "utsavsingh265@gmail.com",
+        Subject : "your otp for lala-cart is",
         Body : emailbody,
     }).then(
        message =>{
