@@ -5,7 +5,7 @@ function sentOTP(){
     let otp_val= Math.floor(Math.random() * 10000);
     let emailbody= `<h2> Your OTP is </h2> ${otp_val}`
     Email.send({
-        SecureToken : "ffde6be9-0fe2-4843-87e6-75f194ce8a0c ",
+        SecureToken : "d245c4d5-5d5f-4e3e-9013-73a81f19fef6 ",
         To : email.value,
         From : "utsavsingh265@gmail.com",
         Subject : "your otp for lala-cart is",
